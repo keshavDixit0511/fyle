@@ -23,7 +23,7 @@ html,body{
     height: 90vh;
     width: 50vw;
     margin-top: 20px;
-    background: transparent url('/hero/hero.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/hero/hero.png') 0% 0% no-repeat padding-box; */
     opacity: 1;
 }
 .text{
