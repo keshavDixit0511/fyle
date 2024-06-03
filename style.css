@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero-image{
+    height: 90vh;
+    width: 50vw;
+    margin-top: 20px;
+    background: transparent url('/hero/hero.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.heading{
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.heading2{
+    text-align: left;
+    font: normal normal bold 60px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.info{
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    max-width: 504px;
+    line-height: 20px;
+    opacity: 1;
+    margin-bottom: 40px
+}
+.buttton .btn{
+    color: white;
+    padding: 10px 20px;
+    background-color: #FF3147;
+    border-radius: 2px;
+    border: none;
+    opacity: 1;
+}
+.btn:hover{
+    background-color: rgb(162, 0, 0);
+    color: white;
+}
+.what-we-do{
+    margin: 90px 160px 40px 150px;
+}
+.information h2{
+    text-align: left;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+}
+.text-info{
+    display: flex;
+    justify-content: space-between;
+}
+.text-info h1{
+    text-align: left;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    max-width: 442px;
+}
+.text-info p{
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    max-width: 504px;
+    opacity: 1;
+}
+
+.why-choose-us{
+    margin: 90px 160px 50px 150px;
+}
+
+.why-choose-us h2{
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+.why-choose-us h1{
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    opacity: 1;
+}
+.icons-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.icons-info div{
+    max-width: 14vw;
+}
+.icons-info div img{
+    margin-bottom: 20px;
+}
+.strong-p{
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    opacity: 1;
+}
+
+.our-project{
+    margin: 90px 160px 50px 150px;
+}
+
+.our-project h2{
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.our-project h1{
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 40px 0;
+    opacity: 1;
+}
+.image-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.images img{
+    height: 60vh;
+    width: 40vw;
+}
+.linkss{
+    background-color: #F6F6F6;
+}
+.linkss div{
+    height: 19.3vh;
+    max-width: 30vw;
+    padding: 20px 40px;
+    transition: all ease-in 0.1s;
+}
+
+.linkss div:hover{
+    background-color: red;
+    color: white;
+}
+.light{
+    max-width: 15vw;
+    letter-spacing: 0px;
+    line-height: 15px;
+}
+
+.growth{
+    padding: 90px 160px 50px 150px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.growth h2{
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.growth h1{
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 40px 0;
+    opacity: 1;
+}
+.boxes{
+    display: flex;
+    gap: 60px;
+    margin-left: 110px;
+}
+.boxes h1{
+    margin: 0;
+}
+
+.boxes div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 200px;
+}
+.client-feedback{
+    margin: 90px 160px 50px 150px;
+}
+.client-feedback h2{
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.client-feedback h1{
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 40px 0;
+    opacity: 1;
+}
+.feedback{
+    margin: 0 0 30px 270px;
+}
+.feedback p{
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    background: url("./Quotemarks-left/Quotemarks-left.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    max-width: 45vw;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 1;
+}
+.redd{
+    color: red;
+    font-weight: 700;
+}
+span{
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.light{
+    font-weight: 100;
+    font-weight: lighter;
+}
+footer{
+    height: 30vh;
+    background:url('./footersvg.svg') no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.81;
+}
+
+
+.outer{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #00000089;
+}
+
+.form{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 40vh;
+    width: 20vw;
+    padding: 20px;
+}
+
+.form-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-heading i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.form h1{
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.form input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.form span{
+    font-size: xx-small;
+}
+.checkkbox{
+    align-self: center;
+}
+#mail{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 15px;
+}
+.check-info{
+    line-height: 10px;
+    position: absolute;
+    top: 78%;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.names{
+    width: 49%;
+    padding: 8px 0;
+    margin-bottom: 20px;
+}
+.submit-btn{
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
